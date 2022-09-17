@@ -14,9 +14,7 @@ html {
 div{
     background-image: url("colorleaves.jpg");
 }
-h1{
-    color:blueviolet;
-}
+
 .web1{
     color: blue;
     color: skyblue;
@@ -76,3 +74,6 @@ h1{
 .sofia {
     font-family: Sofia, cursive;
   }
+  h1{
+    color:blueviolet;
+}
