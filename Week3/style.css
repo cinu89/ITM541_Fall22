@@ -1,3 +1,78 @@
-div{
-    color:green;
+
+body{
+    
+    background :url(https://www.creativefabrica.com/wp-content/uploads/2020/04/23/Colorful-Abstract-Background-Graphics-3937946-1-1-580x348.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    background-image: url("colorleaves.jpg");
+    background-attachment: scroll;
+  }
+div{
+    background-image: url("colorleaves.jpg");
+}
+h1{
+    color:blueviolet;
+}
+.web1{
+    color: blue;
+    color: skyblue;
+    text-decoration: underline;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.web2{
+    
+    list-style-type: square;
+    color: purple;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+.web3{
+    
+        text-align: left;
+        font-size: 12px;
+        margin: auto;
+        width: 25%;
+        border: 3px solid green;
+        padding: 7px;
+        font-family: cursive;
+}
+.skills{
+    text-align: center;
+}
+.web4{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:purple;
+}
+.web5{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color:brown;
+}
+    
+.web6{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color:rgb(93, 32, 93);
+    }
+
+.web7{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color:brown;
+}
+.sofia {
+    font-family: Sofia, cursive;
+  }
