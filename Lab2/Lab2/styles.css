@@ -2,32 +2,79 @@
 
 #flex-section1 ul {
 
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: left;
+	list-style: none;
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /* end Flexbox Part 1 */
-
-
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: left;
+	list-style: none;
+	align-content: stretch;
 }
-
 #flex-section2 li {
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-between;
+	align-items:center ;
+	list-style: none;
+	flex-flow: column wrap;
+	flex-wrap: wrap;
+	align-content: stretch;
 
 }
 
 #flex-section2 .item1 {
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: left;
+	list-style: none;
+	align-content: space-around;
+	flex-flow: row wrap;
+	order: 1;
+	flex-wrap: wrap;
 
+    
+    grid-template-rows: 100px 300px;
+  	grid-auto-flow: column;
+  	grid-auto-columns: 200px;
+	
 }
-
 #flex-section2 .item2 {
-
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: left;
+	list-style: none;
+	flex-flow: row wrap;
+	order: 3; 
+	flex-wrap: wrap;
+	
 }
-
 #flex-section2 .item3 {
-
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: left;
+	list-style: none;
+	flex-flow: column wrap;
+	order: 2;
+	flex-wrap: wrap;
+	
 }
+
 
 /* end Flexbox Part 2 */
 
@@ -35,10 +82,27 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
+	display: flex;	
+	flex-direction: row;
+	align-items: center;
+	align-self: left; 
+	justify-content: center;
+	box-sizing: border-box;
+    height: 400px;
+    text: bold;
+  	text-decoration-color: black;
+  	text-shadow: black;
+  	grid-template-columns: repeat(3, 2fr);
+
 
 }
 
 #flex-section3 .tags ul {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: left;
+
 
 }
 
@@ -48,6 +112,13 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
+	display: grid;
+  	grid-template-columns: repeat(4, 1fr);
+  	grid-auto-rows: 100px;
+  	gap: 20px;
+  	text: bold;
+  	text-decoration-color: black;
+  	text-shadow: black;
 
 }
 
@@ -55,13 +126,22 @@
 
 
 /* Grid Part 2 */
-
+#grid-section2.grid{
+	display: grid;
+  	grid-template-rows: 100px 1fr 100px;
+ 	grid-template-columns: 150px 1fr 150px;
+}
 #grid-section2 .gridboxblue {
-
+	grid-area: 1 / 2 / 12 / 6;
+	
+	
 }
 
 #grid-section2 .gridboxred {
-
+	grid-row-start: 2;
+  	grid-row-end: 3;
+  	grid-column-start: 1;
+  	grid-column-end: 3;
 }
 
 /* end Grid Part 2 */
@@ -70,23 +150,52 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
+	display: grid;
+  	grid-template-columns: 100px 300px 100px;
+  	grid-auto-rows: 100px;
+  	gap: 10px;
+  	text: bold;
+  	text-decoration-color: black;
+  	text-shadow: black;
+  	grid-auto-rows: 100px;
+	
+	
 
 }
 
 #grid-section3 .box1 {
-
+	grid-column: 1; grid-row: 1;
+	display: grid;
+	gap: 10px;
+	grid-auto-rows: 100px;
+  	grid-column-start: 1;
+  	grid-column-end: 4;
+  	grid-row-start: 1;
+ 	grid-row-end: 3;
+  	z-index: 2;
 }
 
 #grid-section3 .box2 {
-
+	grid-column: 2; grid-row: 2;
+	display: grid;
+	gap: 10px;
+	grid-column-start: 1;
+  	grid-row-start: 2;
+  	grid-row-end: 4;
+  	z-index: 1;
 }
 
 #grid-section3 .box3 {
-
+	 grid-column: 1; grid-row: 2;
+	display: grid;
+	gap: 10px;
+	grid-auto-rows: 300px;
 }
 
 #grid-section3 .box4 {
-
+	display: grid;
+	gap: 10px;
+	grid-auto-rows: 100px;
 }
 
 /* end Grid Part 3 */
@@ -107,6 +216,11 @@
 #transition-section .box a:hover {
 	background-color: #cc0000;
 	color: #fff;
+	
+  	transition-timing-function: linear;
+  	transition-delay: 0.5s;
+  	transition: width 0.5s;
+  	transition-duration: 3s;
 
 
 }
