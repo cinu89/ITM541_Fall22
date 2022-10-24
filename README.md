@@ -1,4 +1,3 @@
-# ITM541_Fall22
-Lab 1-Web App Foundations
-
-<a href="https://cinu89.github.io/ITM541_Fall22/Week3/index.html">Link to the webpage</a>
+ITMD541 - Fall 2022 Lab3
+Tip Calculator
+![image](https://user-images.githubusercontent.com/72489769/197628399-346d8b88-8460-49a8-9e18-52a5add6418c.png)
